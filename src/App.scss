@@ -256,7 +256,7 @@ a {
 
 .highlight-video {
   display: none;
-  height: 720px;
+  height: 100%;
   left: 50%;
   object-fit: cover;
   position: absolute;
@@ -663,6 +663,9 @@ a {
 
 @media (min-width: 1280px) {
 
+  .highlight {
+    height: 940px;
+  }
   .hots-menu {
     height: 50px;
     margin-top: 20px;
